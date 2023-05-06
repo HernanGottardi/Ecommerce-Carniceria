@@ -1,0 +1,175 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FrmLogin/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0",
+          "FrmHeladera": "1.0.0",
+          "FrmVenta": "1.0.0"
+        },
+        "runtime": {
+          "FrmLogin.dll": {}
+        }
+      },
+      "ClasesCarniceria/1.0.0": {
+        "runtime": {
+          "ClasesCarniceria.dll": {}
+        }
+      },
+      "FrmAgregarCorte/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmAgregarCorte.dll": {}
+        }
+      },
+      "FrmAgregarProducto/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmAgregarProducto.dll": {}
+        }
+      },
+      "FrmElegirProducto/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0",
+          "FrmFactura": "1.0.0"
+        },
+        "runtime": {
+          "FrmElegirProducto.dll": {}
+        }
+      },
+      "FrmFactura/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmFactura.dll": {}
+        }
+      },
+      "FrmHeladera/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0",
+          "FrmAgregarCorte": "1.0.0",
+          "FrmAgregarProducto": "1.0.0",
+          "FrmHistorial": "1.0.0",
+          "FrmModificarProducto": "1.0.0",
+          "FrmQuitarCorte": "1.0.0",
+          "FrmQuitarProducto": "1.0.0"
+        },
+        "runtime": {
+          "FrmHeladera.dll": {}
+        }
+      },
+      "FrmHistorial/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmHistorial.dll": {}
+        }
+      },
+      "FrmModificarProducto/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmModificarProducto.dll": {}
+        }
+      },
+      "FrmQuitarCorte/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmQuitarCorte.dll": {}
+        }
+      },
+      "FrmQuitarProducto/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmQuitarProducto.dll": {}
+        }
+      },
+      "FrmVenta/1.0.0": {
+        "dependencies": {
+          "FrmElegirProducto": "1.0.0"
+        },
+        "runtime": {
+          "FrmVenta.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FrmLogin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClasesCarniceria/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmAgregarCorte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmAgregarProducto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmElegirProducto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmFactura/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmHeladera/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmHistorial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmModificarProducto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmQuitarCorte/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmQuitarProducto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmVenta/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

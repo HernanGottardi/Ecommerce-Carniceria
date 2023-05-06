@@ -1,0 +1,319 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "ClasesCarniceria/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ClasesCarniceria.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClasesCarniceria.dll": {}
+        }
+      },
+      "FrmAgregarCorte/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmAgregarCorte.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmAgregarCorte.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmAgregarProducto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmAgregarProducto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmAgregarProducto.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmElegirProducto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0",
+          "FrmFactura": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmElegirProducto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmElegirProducto.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmFactura/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmFactura.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmFactura.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmHeladera/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0",
+          "FrmAgregarCorte": "1.0.0",
+          "FrmAgregarProducto": "1.0.0",
+          "FrmHistorial": "1.0.0",
+          "FrmModificarProducto": "1.0.0",
+          "FrmQuitarCorte": "1.0.0",
+          "FrmQuitarProducto": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmHeladera.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmHeladera.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmHistorial/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmHistorial.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmHistorial.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmModificarProducto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmModificarProducto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmModificarProducto.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmQuitarCorte/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmQuitarCorte.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmQuitarCorte.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmQuitarProducto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmQuitarProducto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmQuitarProducto.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmVenta/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FrmElegirProducto": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmVenta.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmVenta.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "ClasesCarniceria/1.0.0": {
+      "type": "project",
+      "path": "../ClasesCarniceria/ClasesCarniceria.csproj",
+      "msbuildProject": "../ClasesCarniceria/ClasesCarniceria.csproj"
+    },
+    "FrmAgregarCorte/1.0.0": {
+      "type": "project",
+      "path": "../FrmAgregarCorte/FrmAgregarCorte.csproj",
+      "msbuildProject": "../FrmAgregarCorte/FrmAgregarCorte.csproj"
+    },
+    "FrmAgregarProducto/1.0.0": {
+      "type": "project",
+      "path": "../FrmAgregarProducto/FrmAgregarProducto.csproj",
+      "msbuildProject": "../FrmAgregarProducto/FrmAgregarProducto.csproj"
+    },
+    "FrmElegirProducto/1.0.0": {
+      "type": "project",
+      "path": "../FrmElegirProducto/FrmElegirProducto.csproj",
+      "msbuildProject": "../FrmElegirProducto/FrmElegirProducto.csproj"
+    },
+    "FrmFactura/1.0.0": {
+      "type": "project",
+      "path": "../FrmFactura/FrmFactura.csproj",
+      "msbuildProject": "../FrmFactura/FrmFactura.csproj"
+    },
+    "FrmHeladera/1.0.0": {
+      "type": "project",
+      "path": "../FrmHeladera/FrmHeladera.csproj",
+      "msbuildProject": "../FrmHeladera/FrmHeladera.csproj"
+    },
+    "FrmHistorial/1.0.0": {
+      "type": "project",
+      "path": "../FrmHistorial/FrmHistorial.csproj",
+      "msbuildProject": "../FrmHistorial/FrmHistorial.csproj"
+    },
+    "FrmModificarProducto/1.0.0": {
+      "type": "project",
+      "path": "../FrmModificarProducto/FrmModificarProducto.csproj",
+      "msbuildProject": "../FrmModificarProducto/FrmModificarProducto.csproj"
+    },
+    "FrmQuitarCorte/1.0.0": {
+      "type": "project",
+      "path": "../FrmQuitarCorte/FrmQuitarCorte.csproj",
+      "msbuildProject": "../FrmQuitarCorte/FrmQuitarCorte.csproj"
+    },
+    "FrmQuitarProducto/1.0.0": {
+      "type": "project",
+      "path": "../FrmQuitarProducto/FrmQuitarProducto.csproj",
+      "msbuildProject": "../FrmQuitarProducto/FrmQuitarProducto.csproj"
+    },
+    "FrmVenta/1.0.0": {
+      "type": "project",
+      "path": "../FrmVenta/FrmVenta.csproj",
+      "msbuildProject": "../FrmVenta/FrmVenta.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ClasesCarniceria >= 1.0.0",
+      "FrmHeladera >= 1.0.0",
+      "FrmVenta >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\herni\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\Login\\FrmLogin.csproj",
+      "projectName": "FrmLogin",
+      "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\Login\\FrmLogin.csproj",
+      "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\Login\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\ClasesCarniceria\\ClasesCarniceria.csproj": {
+              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\ClasesCarniceria\\ClasesCarniceria.csproj"
+            },
+            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmHeladera\\FrmHeladera.csproj": {
+              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmHeladera\\FrmHeladera.csproj"
+            },
+            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmVenta\\FrmVenta.csproj": {
+              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmVenta\\FrmVenta.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
