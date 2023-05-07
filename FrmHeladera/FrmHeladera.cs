@@ -4,7 +4,7 @@ using ClasesCarniceria;
 using formularios;
 
 
-namespace formulario
+namespace formularios
 {
     public partial class FrmHeladera : Form
     {
@@ -139,10 +139,6 @@ namespace formulario
             {
                 this.ConfigurarListBoxProductos();
             }
-            else
-            {
-                MessageBox.Show("No se modifico.");
-            }
         }
 
         private void quitarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -197,9 +193,9 @@ namespace formulario
         {
             FrmQuitarCorte form = new FrmQuitarCorte();
             DialogResult res = form.ShowDialog();
-            if (res == DialogResult.OK) 
-            { 
-                
+            if (res == DialogResult.OK)
+            {
+
             }
 
         }

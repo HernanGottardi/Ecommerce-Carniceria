@@ -1,4 +1,4 @@
-namespace FrmLogin
+namespace formularios
 {
     internal static class Program
     {

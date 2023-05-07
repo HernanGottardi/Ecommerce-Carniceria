@@ -1,4 +1,4 @@
-namespace formulario
+namespace formularios
 {
     internal static class Program
     {

@@ -25,11 +25,11 @@ namespace formularios
             this.lsb_listaProductos.Items.Clear();
             foreach (var item in Carniceria.listaProductos)
             {
-                if (item.CantidadKilos > 0) 
+                if (item.CantidadKilos > 0)
                 {
                     this.lsb_listaProductos.Items.Add(item.TipoDeCorte);
                 }
-                
+
             }
         }
 
@@ -184,5 +184,6 @@ namespace formularios
                 this.txb_detalles.Text = c.MostrarDetalles();
             }
         }
+
     }
 }

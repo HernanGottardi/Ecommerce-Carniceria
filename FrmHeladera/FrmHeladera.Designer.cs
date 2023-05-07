@@ -1,4 +1,4 @@
-﻿namespace formulario
+﻿namespace formularios
 {
     partial class FrmHeladera
     {
@@ -58,7 +58,7 @@
             // 
             lb_vendedor.AutoSize = true;
             lb_vendedor.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point);
-            lb_vendedor.ForeColor = Color.Black;
+            lb_vendedor.ForeColor = Color.White;
             lb_vendedor.Location = new Point(15, 47);
             lb_vendedor.Name = "lb_vendedor";
             lb_vendedor.Size = new Size(270, 46);
@@ -68,7 +68,7 @@
             // lb_Listar
             // 
             lb_Listar.AutoSize = true;
-            lb_Listar.BackColor = Color.SteelBlue;
+            lb_Listar.BackColor = Color.Black;
             lb_Listar.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             lb_Listar.ForeColor = SystemColors.HighlightText;
             lb_Listar.Location = new Point(15, 104);
@@ -129,20 +129,20 @@
             // agregarToolStripMenuItem1
             // 
             agregarToolStripMenuItem1.Name = "agregarToolStripMenuItem1";
-            agregarToolStripMenuItem1.Size = new Size(224, 26);
+            agregarToolStripMenuItem1.Size = new Size(156, 26);
             agregarToolStripMenuItem1.Text = "Agregar";
             agregarToolStripMenuItem1.Click += agregarToolStripMenuItem1_Click;
             // 
             // modificarToolStripMenuItem1
             // 
             modificarToolStripMenuItem1.Name = "modificarToolStripMenuItem1";
-            modificarToolStripMenuItem1.Size = new Size(224, 26);
+            modificarToolStripMenuItem1.Size = new Size(156, 26);
             modificarToolStripMenuItem1.Text = "Modificar";
             // 
             // quitarToolStripMenuItem1
             // 
             quitarToolStripMenuItem1.Name = "quitarToolStripMenuItem1";
-            quitarToolStripMenuItem1.Size = new Size(224, 26);
+            quitarToolStripMenuItem1.Size = new Size(156, 26);
             quitarToolStripMenuItem1.Text = "Quitar";
             quitarToolStripMenuItem1.Click += quitarToolStripMenuItem1_Click;
             // 
@@ -179,7 +179,7 @@
             lsb_clientes.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             lsb_clientes.FormattingEnabled = true;
             lsb_clientes.ItemHeight = 23;
-            lsb_clientes.Location = new Point(500, 145);
+            lsb_clientes.Location = new Point(497, 145);
             lsb_clientes.Name = "lsb_clientes";
             lsb_clientes.Size = new Size(363, 142);
             lsb_clientes.TabIndex = 6;
@@ -187,7 +187,7 @@
             // lb_clientes
             // 
             lb_clientes.AutoSize = true;
-            lb_clientes.BackColor = Color.SteelBlue;
+            lb_clientes.BackColor = Color.Black;
             lb_clientes.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             lb_clientes.ForeColor = SystemColors.HighlightText;
             lb_clientes.Location = new Point(497, 104);
@@ -217,7 +217,7 @@
             // 
             // btn_vender
             // 
-            btn_vender.BackColor = SystemColors.ActiveCaptionText;
+            btn_vender.BackColor = Color.Black;
             btn_vender.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             btn_vender.ForeColor = Color.White;
             btn_vender.Location = new Point(497, 471);
@@ -262,7 +262,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.SteelBlue;
+            BackColor = Color.Maroon;
             ClientSize = new Size(875, 566);
             Controls.Add(txb_detallarCliente);
             Controls.Add(btn_detallarCliente);

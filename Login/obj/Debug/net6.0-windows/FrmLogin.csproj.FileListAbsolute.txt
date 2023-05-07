@@ -66,3 +66,6 @@ C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows
 C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.pdb
 C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.genruntimeconfig.cache
 C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\ref\FrmLogin.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.Properties.Resources.resources
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.GenerateResource.cache
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\formularios.FrmLogin.resources

@@ -46,9 +46,10 @@
             // lb_montoActual
             // 
             lb_montoActual.AutoSize = true;
+            lb_montoActual.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
             lb_montoActual.Location = new Point(12, 19);
             lb_montoActual.Name = "lb_montoActual";
-            lb_montoActual.Size = new Size(100, 20);
+            lb_montoActual.Size = new Size(121, 25);
             lb_montoActual.TabIndex = 0;
             lb_montoActual.Text = "Monto actual:";
             // 
@@ -60,6 +61,7 @@
             lsb_listaProductos.Name = "lsb_listaProductos";
             lsb_listaProductos.Size = new Size(371, 184);
             lsb_listaProductos.TabIndex = 1;
+
             // 
             // txb_buscadorProductos
             // 
@@ -100,9 +102,10 @@
             // lb_cantidadKilos
             // 
             lb_cantidadKilos.AutoSize = true;
+            lb_cantidadKilos.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
             lb_cantidadKilos.Location = new Point(508, 87);
             lb_cantidadKilos.Name = "lb_cantidadKilos";
-            lb_cantidadKilos.Size = new Size(167, 20);
+            lb_cantidadKilos.Size = new Size(198, 25);
             lb_cantidadKilos.TabIndex = 6;
             lb_cantidadKilos.Text = "Elegir cantidad de kilos:";
             // 
@@ -116,12 +119,15 @@
             // 
             // btn_comprar
             // 
+            btn_comprar.BackColor = Color.SteelBlue;
+            btn_comprar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_comprar.ForeColor = Color.White;
             btn_comprar.Location = new Point(508, 360);
             btn_comprar.Name = "btn_comprar";
             btn_comprar.Size = new Size(255, 73);
             btn_comprar.TabIndex = 8;
             btn_comprar.Text = "Comprar";
-            btn_comprar.UseVisualStyleBackColor = true;
+            btn_comprar.UseVisualStyleBackColor = false;
             btn_comprar.Click += btn_comprar_Click;
             // 
             // cb_formasDePago
@@ -136,9 +142,10 @@
             // lb_formaDePago
             // 
             lb_formaDePago.AutoSize = true;
+            lb_formaDePago.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
             lb_formaDePago.Location = new Point(508, 237);
             lb_formaDePago.Name = "lb_formaDePago";
-            lb_formaDePago.Size = new Size(145, 20);
+            lb_formaDePago.Size = new Size(174, 25);
             lb_formaDePago.TabIndex = 10;
             lb_formaDePago.Text = "Modalidad de pago:";
             // 
@@ -156,6 +163,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightSteelBlue;
             ClientSize = new Size(800, 450);
             Controls.Add(btn_detallar);
             Controls.Add(lb_formaDePago);

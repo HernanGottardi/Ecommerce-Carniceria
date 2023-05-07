@@ -6,9 +6,9 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using System;
 
 using ClasesCarniceria;
-using formulario;
+using formularios;
 
-namespace FrmLogin
+namespace formularios
 {
     public partial class FrmLogin : Form
     {
@@ -49,6 +49,8 @@ namespace FrmLogin
                 this.Hide();
                 // Invoco y muestro el formulario Venta.
                 FrmVenta paginaVenta = new FrmVenta(mail);
+
+
                 paginaVenta.Show(this);
 
                 // Muestro en pantalla del nuevo formulario el saludo.

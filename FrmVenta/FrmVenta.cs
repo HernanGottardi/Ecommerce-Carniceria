@@ -1,7 +1,6 @@
-using formulario;
 using formularios;
 
-namespace formulario
+namespace formularios
 {
     public partial class FrmVenta : Form
     {

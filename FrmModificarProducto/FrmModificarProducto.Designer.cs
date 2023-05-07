@@ -92,8 +92,9 @@
             // 
             // cb_tipoCorte
             // 
+            cb_tipoCorte.DropDownStyle = ComboBoxStyle.DropDownList;
             cb_tipoCorte.FormattingEnabled = true;
-            cb_tipoCorte.Location = new Point(484, 140);
+            cb_tipoCorte.Location = new Point(482, 140);
             cb_tipoCorte.Name = "cb_tipoCorte";
             cb_tipoCorte.Size = new Size(282, 28);
             cb_tipoCorte.TabIndex = 5;

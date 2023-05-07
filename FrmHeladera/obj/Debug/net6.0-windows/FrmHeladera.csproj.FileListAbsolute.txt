@@ -36,7 +36,6 @@ C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\bin\Debug\net6.0-w
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\bin\Debug\net6.0-windows\FrmQuitarCorte.pdb
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\bin\Debug\net6.0-windows\FrmQuitarProducto.pdb
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\FrmHeladera.csproj.AssemblyReference.cache
-C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\formulario.FrmHeladera.resources
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\FrmHeladera.csproj.GenerateResource.cache
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\FrmHeladera.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\FrmHeladera.AssemblyInfoInputs.cache
@@ -48,3 +47,4 @@ C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-w
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\FrmHeladera.pdb
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\FrmHeladera.genruntimeconfig.cache
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\ref\FrmHeladera.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\formularios.FrmHeladera.resources
