@@ -28,48 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             dgv_facturaciones = new DataGridView();
             lb_tituloHistorial = new Label();
+            lb_totalGanado = new Label();
             ((System.ComponentModel.ISupportInitialize)dgv_facturaciones).BeginInit();
             SuspendLayout();
             // 
             // dgv_facturaciones
             // 
-            dgv_facturaciones.BackgroundColor = Color.SteelBlue;
+            dgv_facturaciones.BackgroundColor = Color.Maroon;
             dgv_facturaciones.BorderStyle = BorderStyle.None;
             dgv_facturaciones.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.Navy;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = Color.Navy;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dgv_facturaciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.Red;
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = Color.Red;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dgv_facturaciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dgv_facturaciones.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.SteelBlue;
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-            dgv_facturaciones.DefaultCellStyle = dataGridViewCellStyle2;
-            dgv_facturaciones.GridColor = Color.SteelBlue;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.Maroon;
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = Color.Maroon;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.False;
+            dgv_facturaciones.DefaultCellStyle = dataGridViewCellStyle5;
+            dgv_facturaciones.GridColor = Color.Maroon;
             dgv_facturaciones.Location = new Point(12, 113);
             dgv_facturaciones.Name = "dgv_facturaciones";
             dgv_facturaciones.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.SteelBlue;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = Color.SteelBlue;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-            dgv_facturaciones.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.SteelBlue;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = Color.SteelBlue;
+            dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.True;
+            dgv_facturaciones.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             dgv_facturaciones.RowHeadersVisible = false;
             dgv_facturaciones.RowHeadersWidth = 51;
             dgv_facturaciones.RowTemplate.Height = 29;
@@ -86,12 +87,23 @@
             lb_tituloHistorial.TabIndex = 1;
             lb_tituloHistorial.Text = "HISTORIAL DE FACTURACIONES.";
             // 
+            // lb_totalGanado
+            // 
+            lb_totalGanado.AutoSize = true;
+            lb_totalGanado.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_totalGanado.Location = new Point(12, 344);
+            lb_totalGanado.Name = "lb_totalGanado";
+            lb_totalGanado.Size = new Size(165, 28);
+            lb_totalGanado.TabIndex = 2;
+            lb_totalGanado.Text = "Total Recaudado: ";
+            // 
             // FrmHistorial
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.SteelBlue;
+            BackColor = Color.Maroon;
             ClientSize = new Size(865, 487);
+            Controls.Add(lb_totalGanado);
             Controls.Add(lb_tituloHistorial);
             Controls.Add(dgv_facturaciones);
             ForeColor = Color.White;
@@ -107,5 +119,6 @@
 
         private DataGridView dgv_facturaciones;
         private Label lb_tituloHistorial;
+        private Label lb_totalGanado;
     }
 }

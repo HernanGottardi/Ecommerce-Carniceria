@@ -44,19 +44,22 @@
             // lb_tituloAgregarProducto
             // 
             lb_tituloAgregarProducto.AutoSize = true;
-            lb_tituloAgregarProducto.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            lb_tituloAgregarProducto.Location = new Point(217, 64);
+            lb_tituloAgregarProducto.Font = new Font("Segoe UI", 26F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_tituloAgregarProducto.ForeColor = Color.White;
+            lb_tituloAgregarProducto.Location = new Point(176, 36);
             lb_tituloAgregarProducto.Name = "lb_tituloAgregarProducto";
-            lb_tituloAgregarProducto.Size = new Size(310, 46);
+            lb_tituloAgregarProducto.Size = new Size(401, 60);
             lb_tituloAgregarProducto.TabIndex = 0;
             lb_tituloAgregarProducto.Text = "Agregar producto...";
             // 
             // lb_PrecioPorKilo
             // 
             lb_PrecioPorKilo.AutoSize = true;
-            lb_PrecioPorKilo.Location = new Point(176, 284);
+            lb_PrecioPorKilo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_PrecioPorKilo.ForeColor = Color.White;
+            lb_PrecioPorKilo.Location = new Point(176, 276);
             lb_PrecioPorKilo.Name = "lb_PrecioPorKilo";
-            lb_PrecioPorKilo.Size = new Size(152, 20);
+            lb_PrecioPorKilo.Size = new Size(201, 28);
             lb_PrecioPorKilo.TabIndex = 4;
             lb_PrecioPorKilo.Text = "Precio por kilogramo:";
             lb_PrecioPorKilo.TextAlign = ContentAlignment.MiddleCenter;
@@ -80,31 +83,39 @@
             // lb_cantidadKilos
             // 
             lb_cantidadKilos.AutoSize = true;
-            lb_cantidadKilos.Location = new Point(176, 215);
+            lb_cantidadKilos.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_cantidadKilos.ForeColor = Color.White;
+            lb_cantidadKilos.Location = new Point(176, 207);
             lb_cantidadKilos.Name = "lb_cantidadKilos";
-            lb_cantidadKilos.Size = new Size(173, 20);
+            lb_cantidadKilos.Size = new Size(227, 28);
             lb_cantidadKilos.TabIndex = 6;
             lb_cantidadKilos.Text = "Cantidad de Kilogramos:";
             lb_cantidadKilos.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // btn_aceptar
             // 
+            btn_aceptar.BackColor = Color.Black;
+            btn_aceptar.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_aceptar.ForeColor = Color.White;
             btn_aceptar.Location = new Point(176, 365);
             btn_aceptar.Name = "btn_aceptar";
-            btn_aceptar.Size = new Size(124, 43);
+            btn_aceptar.Size = new Size(141, 43);
             btn_aceptar.TabIndex = 7;
             btn_aceptar.Text = "Aceptar";
-            btn_aceptar.UseVisualStyleBackColor = true;
+            btn_aceptar.UseVisualStyleBackColor = false;
             btn_aceptar.Click += btn_aceptar_Click;
             // 
             // btn_cancelar
             // 
-            btn_cancelar.Location = new Point(452, 365);
+            btn_cancelar.BackColor = Color.Black;
+            btn_cancelar.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_cancelar.ForeColor = Color.White;
+            btn_cancelar.Location = new Point(434, 365);
             btn_cancelar.Name = "btn_cancelar";
-            btn_cancelar.Size = new Size(123, 43);
+            btn_cancelar.Size = new Size(141, 43);
             btn_cancelar.TabIndex = 8;
             btn_cancelar.Text = "Cancelar";
-            btn_cancelar.UseVisualStyleBackColor = true;
+            btn_cancelar.UseVisualStyleBackColor = false;
             btn_cancelar.Click += btn_cancelar_Click;
             // 
             // cb_tipoDeCorte
@@ -119,9 +130,11 @@
             // lb_tipoDeCorteDeCarne
             // 
             lb_tipoDeCorteDeCarne.AutoSize = true;
-            lb_tipoDeCorteDeCarne.Location = new Point(176, 142);
+            lb_tipoDeCorteDeCarne.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_tipoDeCorteDeCarne.ForeColor = Color.White;
+            lb_tipoDeCorteDeCarne.Location = new Point(176, 134);
             lb_tipoDeCorteDeCarne.Name = "lb_tipoDeCorteDeCarne";
-            lb_tipoDeCorteDeCarne.Size = new Size(162, 20);
+            lb_tipoDeCorteDeCarne.Size = new Size(211, 28);
             lb_tipoDeCorteDeCarne.TabIndex = 10;
             lb_tipoDeCorteDeCarne.Text = "Tipo de corte de carne:";
             // 
@@ -129,7 +142,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.Maroon;
+            ClientSize = new Size(772, 450);
             Controls.Add(lb_tipoDeCorteDeCarne);
             Controls.Add(cb_tipoDeCorte);
             Controls.Add(btn_cancelar);
@@ -139,6 +153,7 @@
             Controls.Add(lb_PrecioPorKilo);
             Controls.Add(nud_precioPorKilogramo);
             Controls.Add(lb_tituloAgregarProducto);
+            ForeColor = Color.Black;
             Name = "FrmAgregarProductos";
             Text = "Agregar Producto";
             Load += FrmAgregarProductos_Load;

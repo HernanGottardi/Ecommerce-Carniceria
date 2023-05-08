@@ -69,3 +69,8 @@ C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows
 C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.Properties.Resources.resources
 C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\FrmLogin.csproj.GenerateResource.cache
 C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\obj\Debug\net6.0-windows\formularios.FrmLogin.resources
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\Login\bin\Debug\net6.0-windows\FrmModificarCorte.pdb

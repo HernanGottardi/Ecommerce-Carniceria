@@ -49,6 +49,7 @@
             // 
             lb_quitar.AutoSize = true;
             lb_quitar.Font = new Font("Lucida Sans Unicode", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_quitar.ForeColor = Color.White;
             lb_quitar.Location = new Point(30, 33);
             lb_quitar.Name = "lb_quitar";
             lb_quitar.Size = new Size(418, 34);
@@ -57,39 +58,43 @@
             // 
             // btn_cancelar
             // 
+            btn_cancelar.BackColor = Color.Black;
             btn_cancelar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_cancelar.Location = new Point(337, 334);
+            btn_cancelar.ForeColor = Color.White;
+            btn_cancelar.Location = new Point(337, 349);
             btn_cancelar.Name = "btn_cancelar";
-            btn_cancelar.Size = new Size(172, 60);
+            btn_cancelar.Size = new Size(172, 45);
             btn_cancelar.TabIndex = 2;
             btn_cancelar.Text = "Cancelar";
-            btn_cancelar.UseVisualStyleBackColor = true;
+            btn_cancelar.UseVisualStyleBackColor = false;
             btn_cancelar.Click += btn_cancelar_Click;
             // 
             // btn_aceptar
             // 
+            btn_aceptar.BackColor = Color.Black;
             btn_aceptar.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_aceptar.Location = new Point(30, 334);
+            btn_aceptar.ForeColor = Color.White;
+            btn_aceptar.Location = new Point(30, 349);
             btn_aceptar.Name = "btn_aceptar";
-            btn_aceptar.Size = new Size(172, 60);
+            btn_aceptar.Size = new Size(172, 45);
             btn_aceptar.TabIndex = 3;
-            btn_aceptar.Text = "Aceptar";
-            btn_aceptar.UseVisualStyleBackColor = true;
+            btn_aceptar.Text = "Quitar";
+            btn_aceptar.UseVisualStyleBackColor = false;
             btn_aceptar.Click += btn_aceptar_Click;
             // 
             // txb_detallar
             // 
-            txb_detallar.Location = new Point(547, 122);
+            txb_detallar.Location = new Point(547, 83);
             txb_detallar.Multiline = true;
             txb_detallar.Name = "txb_detallar";
             txb_detallar.ReadOnly = true;
-            txb_detallar.Size = new Size(230, 185);
+            txb_detallar.Size = new Size(230, 311);
             txb_detallar.TabIndex = 4;
             // 
             // btn_detallar
             // 
             btn_detallar.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btn_detallar.Location = new Point(598, 83);
+            btn_detallar.Location = new Point(603, 44);
             btn_detallar.Name = "btn_detallar";
             btn_detallar.Size = new Size(121, 33);
             btn_detallar.TabIndex = 5;
@@ -101,6 +106,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Maroon;
             ClientSize = new Size(800, 450);
             Controls.Add(btn_detallar);
             Controls.Add(txb_detallar);
@@ -108,6 +114,7 @@
             Controls.Add(btn_cancelar);
             Controls.Add(lb_quitar);
             Controls.Add(lsb_listaProductos);
+            ForeColor = Color.Black;
             Name = "FrmQuitarProducto";
             Text = "Quitar Producto";
             Load += Form1_Load;

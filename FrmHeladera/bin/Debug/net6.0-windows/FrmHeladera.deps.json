@@ -12,6 +12,7 @@
           "FrmAgregarCorte": "1.0.0",
           "FrmAgregarProducto": "1.0.0",
           "FrmHistorial": "1.0.0",
+          "FrmModificarCorte": "1.0.0",
           "FrmModificarProducto": "1.0.0",
           "FrmQuitarCorte": "1.0.0",
           "FrmQuitarProducto": "1.0.0"
@@ -47,6 +48,14 @@
         },
         "runtime": {
           "FrmHistorial.dll": {}
+        }
+      },
+      "FrmModificarCorte/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmModificarCorte.dll": {}
         }
       },
       "FrmModificarProducto/1.0.0": {
@@ -97,6 +106,11 @@
       "sha512": ""
     },
     "FrmHistorial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmModificarCorte/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

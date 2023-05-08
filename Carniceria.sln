@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opciones cortes", "opciones
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrmQuitarCorte", "FrmQuitarCorte\FrmQuitarCorte.csproj", "{743C0550-24F3-4F31-9DA2-B4A48287C19C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmModificarCorte", "FrmModificarCorte\FrmModificarCorte.csproj", "{11A7ACA7-DED1-4675-8D1B-669595287D3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{743C0550-24F3-4F31-9DA2-B4A48287C19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{743C0550-24F3-4F31-9DA2-B4A48287C19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{743C0550-24F3-4F31-9DA2-B4A48287C19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A7ACA7-DED1-4675-8D1B-669595287D3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A7ACA7-DED1-4675-8D1B-669595287D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A7ACA7-DED1-4675-8D1B-669595287D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A7ACA7-DED1-4675-8D1B-669595287D3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +109,7 @@ Global
 		{BCE9EEAD-BFBE-4666-981D-EFD47A8270EE} = {9B69A4DF-A9C3-4172-A7CA-831CC32702C1}
 		{EEE9406A-FA2B-4530-B811-082EB90D3C34} = {9B69A4DF-A9C3-4172-A7CA-831CC32702C1}
 		{743C0550-24F3-4F31-9DA2-B4A48287C19C} = {EEE9406A-FA2B-4530-B811-082EB90D3C34}
+		{11A7ACA7-DED1-4675-8D1B-669595287D3A} = {EEE9406A-FA2B-4530-B811-082EB90D3C34}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD6E62F7-C2F5-4DE6-8175-08D14FD68356}

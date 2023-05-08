@@ -85,6 +85,7 @@
           "FrmAgregarCorte": "1.0.0",
           "FrmAgregarProducto": "1.0.0",
           "FrmHistorial": "1.0.0",
+          "FrmModificarCorte": "1.0.0",
           "FrmModificarProducto": "1.0.0",
           "FrmQuitarCorte": "1.0.0",
           "FrmQuitarProducto": "1.0.0"
@@ -110,6 +111,22 @@
         },
         "runtime": {
           "bin/placeholder/FrmHistorial.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "FrmModificarCorte/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmModificarCorte.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmModificarCorte.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WindowsForms"
@@ -216,6 +233,11 @@
       "type": "project",
       "path": "../FrmHistorial/FrmHistorial.csproj",
       "msbuildProject": "../FrmHistorial/FrmHistorial.csproj"
+    },
+    "FrmModificarCorte/1.0.0": {
+      "type": "project",
+      "path": "../FrmModificarCorte/FrmModificarCorte.csproj",
+      "msbuildProject": "../FrmModificarCorte/FrmModificarCorte.csproj"
     },
     "FrmModificarProducto/1.0.0": {
       "type": "project",

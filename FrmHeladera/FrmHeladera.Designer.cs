@@ -59,7 +59,7 @@
             lb_vendedor.AutoSize = true;
             lb_vendedor.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point);
             lb_vendedor.ForeColor = Color.White;
-            lb_vendedor.Location = new Point(15, 47);
+            lb_vendedor.Location = new Point(12, 43);
             lb_vendedor.Name = "lb_vendedor";
             lb_vendedor.Size = new Size(270, 46);
             lb_vendedor.TabIndex = 0;
@@ -69,32 +69,34 @@
             // 
             lb_Listar.AutoSize = true;
             lb_Listar.BackColor = Color.Black;
-            lb_Listar.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_Listar.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             lb_Listar.ForeColor = SystemColors.HighlightText;
             lb_Listar.Location = new Point(15, 104);
             lb_Listar.Name = "lb_Listar";
-            lb_Listar.Size = new Size(284, 38);
+            lb_Listar.Size = new Size(235, 31);
             lb_Listar.TabIndex = 1;
             lb_Listar.Text = "Seleccionar producto:";
             // 
             // menuStrip1
             // 
-            menuStrip1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            menuStrip1.BackColor = Color.Black;
+            menuStrip1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
             menuStrip1.ImageScalingSize = new Size(30, 30);
             menuStrip1.Items.AddRange(new ToolStripItem[] { agregarProductoToolStripMenuItem, configurarCortesToolStripMenuItem, facturacionToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.MaximumSize = new Size(0, 200);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(875, 28);
+            menuStrip1.Size = new Size(875, 31);
             menuStrip1.TabIndex = 3;
             menuStrip1.Text = "menuStrip1";
             // 
             // agregarProductoToolStripMenuItem
             // 
             agregarProductoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { agregarToolStripMenuItem, modificarToolStripMenuItem, quitarToolStripMenuItem });
-            agregarProductoToolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            agregarProductoToolStripMenuItem.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            agregarProductoToolStripMenuItem.ForeColor = Color.White;
             agregarProductoToolStripMenuItem.Name = "agregarProductoToolStripMenuItem";
-            agregarProductoToolStripMenuItem.Size = new Size(157, 24);
+            agregarProductoToolStripMenuItem.Size = new Size(180, 27);
             agregarProductoToolStripMenuItem.Text = "Configurar Producto";
             // 
             // agregarToolStripMenuItem
@@ -121,9 +123,10 @@
             // configurarCortesToolStripMenuItem
             // 
             configurarCortesToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { agregarToolStripMenuItem1, modificarToolStripMenuItem1, quitarToolStripMenuItem1 });
-            configurarCortesToolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            configurarCortesToolStripMenuItem.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            configurarCortesToolStripMenuItem.ForeColor = Color.White;
             configurarCortesToolStripMenuItem.Name = "configurarCortesToolStripMenuItem";
-            configurarCortesToolStripMenuItem.Size = new Size(139, 24);
+            configurarCortesToolStripMenuItem.Size = new Size(159, 27);
             configurarCortesToolStripMenuItem.Text = "Configurar Cortes";
             // 
             // agregarToolStripMenuItem1
@@ -138,6 +141,7 @@
             modificarToolStripMenuItem1.Name = "modificarToolStripMenuItem1";
             modificarToolStripMenuItem1.Size = new Size(156, 26);
             modificarToolStripMenuItem1.Text = "Modificar";
+            modificarToolStripMenuItem1.Click += modificarToolStripMenuItem1_Click;
             // 
             // quitarToolStripMenuItem1
             // 
@@ -148,9 +152,10 @@
             // 
             // facturacionToolStripMenuItem
             // 
-            facturacionToolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            facturacionToolStripMenuItem.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            facturacionToolStripMenuItem.ForeColor = Color.White;
             facturacionToolStripMenuItem.Name = "facturacionToolStripMenuItem";
-            facturacionToolStripMenuItem.Size = new Size(136, 24);
+            facturacionToolStripMenuItem.Size = new Size(153, 27);
             facturacionToolStripMenuItem.Text = "Historial Facturas";
             facturacionToolStripMenuItem.Click += facturacionToolStripMenuItem_Click;
             // 
@@ -188,11 +193,11 @@
             // 
             lb_clientes.AutoSize = true;
             lb_clientes.BackColor = Color.Black;
-            lb_clientes.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_clientes.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
             lb_clientes.ForeColor = SystemColors.HighlightText;
             lb_clientes.Location = new Point(497, 104);
             lb_clientes.Name = "lb_clientes";
-            lb_clientes.Size = new Size(262, 38);
+            lb_clientes.Size = new Size(215, 31);
             lb_clientes.TabIndex = 7;
             lb_clientes.Text = "Seleccionar cliente: ";
             // 

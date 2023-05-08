@@ -36,7 +36,7 @@ namespace formularios
 
         private void btn_Cancelar_Click(object sender, EventArgs e)
         {
-            this.DialogResult= DialogResult.Cancel;
+            this.DialogResult = DialogResult.Cancel;
         }
     }
 }

@@ -58,6 +58,7 @@
             // 
             lb_listarProductos.AutoSize = true;
             lb_listarProductos.Font = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_listarProductos.ForeColor = Color.White;
             lb_listarProductos.Location = new Point(12, 57);
             lb_listarProductos.Name = "lb_listarProductos";
             lb_listarProductos.Size = new Size(350, 26);
@@ -68,7 +69,8 @@
             // 
             lb_modificarProducto.AutoSize = true;
             lb_modificarProducto.Font = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            lb_modificarProducto.Location = new Point(484, 57);
+            lb_modificarProducto.ForeColor = Color.White;
+            lb_modificarProducto.Location = new Point(482, 57);
             lb_modificarProducto.Name = "lb_modificarProducto";
             lb_modificarProducto.Size = new Size(174, 26);
             lb_modificarProducto.TabIndex = 2;
@@ -76,7 +78,7 @@
             // 
             // nud_cantidadKilos
             // 
-            nud_cantidadKilos.Location = new Point(484, 224);
+            nud_cantidadKilos.Location = new Point(482, 238);
             nud_cantidadKilos.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
             nud_cantidadKilos.Name = "nud_cantidadKilos";
             nud_cantidadKilos.Size = new Size(282, 27);
@@ -84,7 +86,7 @@
             // 
             // nud_precioKilo
             // 
-            nud_precioKilo.Location = new Point(484, 308);
+            nud_precioKilo.Location = new Point(482, 327);
             nud_precioKilo.Maximum = new decimal(new int[] { 99999, 0, 0, 0 });
             nud_precioKilo.Name = "nud_precioKilo";
             nud_precioKilo.Size = new Size(282, 27);
@@ -94,7 +96,7 @@
             // 
             cb_tipoCorte.DropDownStyle = ComboBoxStyle.DropDownList;
             cb_tipoCorte.FormattingEnabled = true;
-            cb_tipoCorte.Location = new Point(482, 140);
+            cb_tipoCorte.Location = new Point(482, 152);
             cb_tipoCorte.Name = "cb_tipoCorte";
             cb_tipoCorte.Size = new Size(282, 28);
             cb_tipoCorte.TabIndex = 5;
@@ -102,48 +104,58 @@
             // lb_TipoCorte
             // 
             lb_TipoCorte.AutoSize = true;
-            lb_TipoCorte.Location = new Point(484, 117);
+            lb_TipoCorte.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_TipoCorte.ForeColor = Color.White;
+            lb_TipoCorte.Location = new Point(482, 121);
             lb_TipoCorte.Name = "lb_TipoCorte";
-            lb_TipoCorte.Size = new Size(159, 20);
+            lb_TipoCorte.Size = new Size(207, 28);
             lb_TipoCorte.TabIndex = 6;
             lb_TipoCorte.Text = "Tipo de corte de carne";
             // 
             // lb_cantidadKilos
             // 
             lb_cantidadKilos.AutoSize = true;
-            lb_cantidadKilos.Location = new Point(484, 201);
+            lb_cantidadKilos.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_cantidadKilos.ForeColor = Color.White;
+            lb_cantidadKilos.Location = new Point(482, 207);
             lb_cantidadKilos.Name = "lb_cantidadKilos";
-            lb_cantidadKilos.Size = new Size(124, 20);
+            lb_cantidadKilos.Size = new Size(163, 28);
             lb_cantidadKilos.TabIndex = 7;
             lb_cantidadKilos.Text = "Cantidad de kilos";
             // 
             // lb_precioPorkilo
             // 
             lb_precioPorkilo.AutoSize = true;
-            lb_precioPorkilo.Location = new Point(484, 285);
+            lb_precioPorkilo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_precioPorkilo.ForeColor = Color.White;
+            lb_precioPorkilo.Location = new Point(482, 296);
             lb_precioPorkilo.Name = "lb_precioPorkilo";
-            lb_precioPorkilo.Size = new Size(105, 20);
+            lb_precioPorkilo.Size = new Size(139, 28);
             lb_precioPorkilo.TabIndex = 8;
             lb_precioPorkilo.Text = "Precio por kilo";
             // 
             // button_modificar
             // 
+            button_modificar.BackColor = Color.Black;
+            button_modificar.ForeColor = Color.White;
             button_modificar.Location = new Point(482, 385);
             button_modificar.Name = "button_modificar";
             button_modificar.Size = new Size(124, 45);
             button_modificar.TabIndex = 9;
             button_modificar.Text = "Modificar";
-            button_modificar.UseVisualStyleBackColor = true;
+            button_modificar.UseVisualStyleBackColor = false;
             button_modificar.Click += button_modificar_Click;
             // 
             // btn_cancelar
             // 
+            btn_cancelar.BackColor = Color.Black;
+            btn_cancelar.ForeColor = Color.White;
             btn_cancelar.Location = new Point(642, 385);
             btn_cancelar.Name = "btn_cancelar";
             btn_cancelar.Size = new Size(124, 45);
             btn_cancelar.TabIndex = 10;
             btn_cancelar.Text = "Cancelar";
-            btn_cancelar.UseVisualStyleBackColor = true;
+            btn_cancelar.UseVisualStyleBackColor = false;
             btn_cancelar.Click += btn_cancelar_Click;
             // 
             // txb_detallarProducto
@@ -169,6 +181,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Maroon;
             ClientSize = new Size(800, 450);
             Controls.Add(btn_detallar);
             Controls.Add(txb_detallarProducto);

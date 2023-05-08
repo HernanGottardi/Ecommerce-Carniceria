@@ -60,6 +60,22 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "FrmModificarCorte/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FrmModificarCorte.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FrmModificarCorte.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "FrmModificarProducto/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -131,6 +147,11 @@
       "path": "../FrmHistorial/FrmHistorial.csproj",
       "msbuildProject": "../FrmHistorial/FrmHistorial.csproj"
     },
+    "FrmModificarCorte/1.0.0": {
+      "type": "project",
+      "path": "../FrmModificarCorte/FrmModificarCorte.csproj",
+      "msbuildProject": "../FrmModificarCorte/FrmModificarCorte.csproj"
+    },
     "FrmModificarProducto/1.0.0": {
       "type": "project",
       "path": "../FrmModificarProducto/FrmModificarProducto.csproj",
@@ -153,6 +174,7 @@
       "FrmAgregarCorte >= 1.0.0",
       "FrmAgregarProducto >= 1.0.0",
       "FrmHistorial >= 1.0.0",
+      "FrmModificarCorte >= 1.0.0",
       "FrmModificarProducto >= 1.0.0",
       "FrmQuitarCorte >= 1.0.0",
       "FrmQuitarProducto >= 1.0.0"
@@ -196,6 +218,9 @@
             },
             "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmHistorial\\FrmHistorial.csproj": {
               "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmHistorial\\FrmHistorial.csproj"
+            },
+            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmModificarCorte\\FrmModificarCorte.csproj": {
+              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmModificarCorte\\FrmModificarCorte.csproj"
             },
             "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmModificarProducto\\FrmModificarProducto.csproj": {
               "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmModificarProducto\\FrmModificarProducto.csproj"

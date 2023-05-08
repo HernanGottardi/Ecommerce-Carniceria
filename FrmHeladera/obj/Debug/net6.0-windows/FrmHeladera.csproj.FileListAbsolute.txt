@@ -48,3 +48,8 @@ C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-w
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\FrmHeladera.genruntimeconfig.cache
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\ref\FrmHeladera.dll
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\obj\Debug\net6.0-windows\formularios.FrmHeladera.resources
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\bin\Debug\net6.0-windows\FrmModificarCorte.deps.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\bin\Debug\net6.0-windows\FrmModificarCorte.runtimeconfig.json
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\bin\Debug\net6.0-windows\FrmModificarCorte.exe
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\bin\Debug\net6.0-windows\FrmModificarCorte.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmHeladera\bin\Debug\net6.0-windows\FrmModificarCorte.pdb

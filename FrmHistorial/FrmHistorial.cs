@@ -7,6 +7,7 @@ namespace formularios
     {
 
         private List<Factura> listaFacturas;
+
         public FrmHistorial()
         {
             InitializeComponent();
@@ -14,7 +15,19 @@ namespace formularios
 
         public FrmHistorial(List<Factura> lista) : this()
         {
-            this.listaFacturas = lista;
+            this.ListaFacturas = lista;
+        }
+
+        public List<Factura> ListaFacturas { get => listaFacturas; set => listaFacturas = value; }
+
+        private decimal CalcularTotalGanado() 
+        {
+            decimal total = 0;
+            foreach (var item in this.ListaFacturas)
+            {
+                total += item.PrecioFinal;
+            }
+            return total;
         }
 
         private void FrmHistorial_Load(object sender, EventArgs e)
@@ -29,7 +42,7 @@ namespace formularios
             this.dgv_facturaciones.Columns[3].Name = "PrecioPorKilo";
             this.dgv_facturaciones.Columns[4].Name = "PrecioFinal";
 
-            this.dgv_facturaciones.DataSource = listaFacturas;
+            this.dgv_facturaciones.DataSource = ListaFacturas;
 
             dgv_facturaciones.Columns["MailCliente"].DataPropertyName = "MailCliente";
             dgv_facturaciones.Columns["CorteDeCarne"].DataPropertyName = "CorteDeCarne";
@@ -37,7 +50,12 @@ namespace formularios
             dgv_facturaciones.Columns["PrecioPorKilo"].DataPropertyName = "PrecioPorKilo";
             dgv_facturaciones.Columns["PrecioFinal"].DataPropertyName = "PrecioFinal";
 
+            this.lb_totalGanado.Text = $"Total Recaudado: ${this.CalcularTotalGanado()}";
+
+
+
 
         }
+
     }
 }

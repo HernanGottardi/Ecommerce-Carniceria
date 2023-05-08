@@ -17,14 +17,14 @@ namespace formularios
 
         private void btn_aceptar_Click_1(object sender, EventArgs e)
         {
-            this.nuevoCorte = this.txb_agregarCorteNuevo.Text;
-            if (!string.IsNullOrEmpty(nuevoCorte))
+            this.nuevoCorte = this.txb_agregarCorteNuevo.Text.ToString();
+            if (!(String.IsNullOrWhiteSpace(nuevoCorte)))
             {
                 this.DialogResult = DialogResult.OK;
             }
             else
             {
-                this.DialogResult = DialogResult.Cancel;
+                MessageBox.Show("Error, no estas ingresando un texto.");
             }
         }
 

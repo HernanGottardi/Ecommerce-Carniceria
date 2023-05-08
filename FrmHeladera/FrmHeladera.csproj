@@ -13,6 +13,7 @@
     <ProjectReference Include="..\FrmAgregarCorte\FrmAgregarCorte.csproj" />
     <ProjectReference Include="..\FrmAgregarProducto\FrmAgregarProducto.csproj" />
     <ProjectReference Include="..\FrmHistorial\FrmHistorial.csproj" />
+    <ProjectReference Include="..\FrmModificarCorte\FrmModificarCorte.csproj" />
     <ProjectReference Include="..\FrmModificarProducto\FrmModificarProducto.csproj" />
     <ProjectReference Include="..\FrmQuitarCorte\FrmQuitarCorte.csproj" />
     <ProjectReference Include="..\FrmQuitarProducto\FrmQuitarProducto.csproj" />

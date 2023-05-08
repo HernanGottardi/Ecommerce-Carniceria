@@ -18,3 +18,4 @@ C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmAgregarProducto\obj\Debug\n
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmAgregarProducto\obj\Debug\net6.0-windows\FrmAgregarProducto.pdb
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmAgregarProducto\obj\Debug\net6.0-windows\FrmAgregarProducto.genruntimeconfig.cache
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmAgregarProducto\obj\Debug\net6.0-windows\ref\FrmAgregarProducto.dll
+C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmAgregarProducto\obj\Debug\net6.0-windows\FrmAgregarProducto.Properties.Resources.resources

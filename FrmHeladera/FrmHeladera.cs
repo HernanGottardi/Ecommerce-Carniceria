@@ -195,9 +195,21 @@ namespace formularios
             DialogResult res = form.ShowDialog();
             if (res == DialogResult.OK)
             {
-
+                MessageBox.Show("El corte de carne se quito con exito!");
+                this.ConfigurarListBoxProductos();
             }
 
+        }
+
+        private void modificarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmModificarCorte form = new FrmModificarCorte();
+            DialogResult res = form.ShowDialog();
+            if (res == DialogResult.OK)
+            {
+                MessageBox.Show("El corte de carne se modifico con exito!");
+                this.ConfigurarListBoxProductos();
+            }
         }
     }
 }
