@@ -75,11 +75,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmVenta\\FrmVenta.csproj",
+      "projectUniqueName": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmVenta\\FrmVenta.csproj",
       "projectName": "FrmVenta",
-      "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmVenta\\FrmVenta.csproj",
+      "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmVenta\\FrmVenta.csproj",
       "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmVenta\\obj\\",
+      "outputPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmVenta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmElegirProducto\\FrmElegirProducto.csproj": {
-              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmElegirProducto\\FrmElegirProducto.csproj"
+            "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmElegirProducto\\FrmElegirProducto.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmElegirProducto\\FrmElegirProducto.csproj"
             }
           }
         }

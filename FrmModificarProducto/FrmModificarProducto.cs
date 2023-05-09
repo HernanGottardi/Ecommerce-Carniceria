@@ -7,6 +7,9 @@ namespace formularios
         public FrmModificarProducto()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void button_modificar_Click(object sender, EventArgs e)

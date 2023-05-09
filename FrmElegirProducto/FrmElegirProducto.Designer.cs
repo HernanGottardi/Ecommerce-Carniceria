@@ -61,7 +61,6 @@
             lsb_listaProductos.Name = "lsb_listaProductos";
             lsb_listaProductos.Size = new Size(371, 184);
             lsb_listaProductos.TabIndex = 1;
-
             // 
             // txb_buscadorProductos
             // 
@@ -177,6 +176,8 @@
             Controls.Add(txb_buscadorProductos);
             Controls.Add(lsb_listaProductos);
             Controls.Add(lb_montoActual);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "FrmElegirProducto";
             Text = "Comprar Producto";
             Load += FrmElegirProducto_Load_1;

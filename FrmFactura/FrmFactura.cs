@@ -9,11 +9,12 @@ namespace formularios
         private decimal precioKilo;
         private decimal precioFinal;
         private FormasDePago forma;
-        private Cliente cliente;
-        private Carne carne;
         public FrmFactura()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         public FrmFactura(FormasDePago forma, string corteDeCarne, int cantidadKilos, decimal precioKilo, decimal precioFinal) : this()
@@ -23,8 +24,6 @@ namespace formularios
             this.precioKilo = precioKilo;
             this.precioFinal = precioFinal;
             this.forma = forma;
-            this.cliente = cliente;
-            this.carne = carne;
         }
 
         private void FrmFactura_Load(object sender, EventArgs e)

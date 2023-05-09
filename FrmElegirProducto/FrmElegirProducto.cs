@@ -12,6 +12,10 @@ namespace formularios
         public FrmElegirProducto()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         public FrmElegirProducto(decimal monto, string mail) : this()
@@ -20,6 +24,10 @@ namespace formularios
             this.mail = mail;
         }
 
+        /// <summary>
+        /// Llenar list box con los elementos de la lista productos.
+        /// Siempre y cuando sean diferentes a 0 sus atributos stock kilos.
+        /// </summary>
         private void ConfigurarListaProductos()
         {
             this.lsb_listaProductos.Items.Clear();
@@ -32,7 +40,9 @@ namespace formularios
 
             }
         }
-
+        /// <summary>
+        /// LLenar combo box con los tipos de pago existentes.
+        /// </summary>
         private void ConfiguracionComboBoxPagos()
         {
             foreach (FormasDePago item in Enum.GetValues(typeof(FormasDePago)))
@@ -40,19 +50,18 @@ namespace formularios
                 this.cb_formasDePago.Items.Add(item);
             }
         }
-
+        /// <summary>
+        /// Llenar label con informacion sobre el mail del cliente y su monto.
+        /// </summary>
+        /// <param name="monto"></param>
+        /// <param name="mail"></param>
         private void rellenarTitulo(decimal monto, string mail)
         {
             this.lb_montoActual.Text = $"El monto de {this.mail} es: ${this.monto}";
         }
-
-        private void ActualizarMontoCliente(Cliente c)
-        {
-            if (c != null)
-            {
-                c.CantidadDinero = this.monto;
-            }
-        }
+        /// <summary>
+        /// Aplico las configuraciones necesarias para los controladores.
+        /// </summary>
 
         private void FrmElegirProducto_Load_1(object sender, EventArgs e)
         {
@@ -62,10 +71,14 @@ namespace formularios
             this.rellenarTitulo(this.monto, this.mail);
 
         }
-
+        /// <summary>
+        /// Mostrar informacion del producto a buscar.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_buscadorProductos_Click(object sender, EventArgs e)
         {
-            if (this.txb_buscadorProductos.Text is not null)
+            if (this.txb_buscadorProductos.Text.Length != 0)
             {
                 string nombreBuscado = txb_buscadorProductos.Text;
                 int indiceEncontrado = lsb_listaProductos.FindString(nombreBuscado);
@@ -133,7 +146,8 @@ namespace formularios
                 Vendedor v = new Vendedor();
                 Cliente clienteSelec = v.BuscarClientePorMail(this.mail);
                 // Los clientes traen un valor por defecto que debe ser modificado por el monto que ingreso el usuario. 
-                this.ActualizarMontoCliente(clienteSelec);
+                clienteSelec.CantidadDinero = this.monto;
+
 
                 if (carneSelec != null && clienteSelec != null)
                 {
@@ -145,7 +159,7 @@ namespace formularios
 
                         if (cb_formasDePago.SelectedItem != null)
                         {
-                            FormasDePago forma = (FormasDePago)Enum.Parse(typeof(FormasDePago), cb_formasDePago.SelectedItem.ToString());
+                            FormasDePago forma = (FormasDePago)Enum.Parse(typeof(FormasDePago), this.cb_formasDePago.SelectedItem.ToString());
 
                             decimal res = this.ValidarPuedePagar(clienteSelec, precio, forma);
                             if (res >= 0)
@@ -154,7 +168,7 @@ namespace formularios
                                 DialogResult resForm = form.ShowDialog();
                                 if (resForm == DialogResult.OK)
                                 {
-                                    // actualizo informacion en programa.
+                                    // actualizo informacion en cliente y carne.
                                     carneSelec.CantidadKilos -= cantidadkilos;
                                     clienteSelec.CantidadDinero -= res;
                                     this.monto -= res;

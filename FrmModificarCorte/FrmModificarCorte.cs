@@ -9,6 +9,9 @@ namespace formularios
         public FrmModificarCorte()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -19,6 +22,9 @@ namespace formularios
                 this.lsb_listaDeCortes.Items.Add(item);
             }
         }
+        /// <summary>
+        /// Evento encargado de verificar si se selecciono un tipo de carne y si el nuevo es correcto.
+        /// </summary>
 
         private void btn_modificar_Click(object sender, EventArgs e)
         {

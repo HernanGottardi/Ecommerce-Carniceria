@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "FrmAgregarProducto/1.0.0": {
         "dependencies": {
-          "ClasesCarniceria": "1.0.0"
+          "ClasesCarniceria": "1.0.0",
+          "FrmModificarProducto": "1.0.0"
         },
         "runtime": {
           "FrmAgregarProducto.dll": {}
@@ -17,6 +18,14 @@
       "ClasesCarniceria/1.0.0": {
         "runtime": {
           "ClasesCarniceria.dll": {}
+        }
+      },
+      "FrmModificarProducto/1.0.0": {
+        "dependencies": {
+          "ClasesCarniceria": "1.0.0"
+        },
+        "runtime": {
+          "FrmModificarProducto.dll": {}
         }
       }
     }
@@ -28,6 +37,11 @@
       "sha512": ""
     },
     "ClasesCarniceria/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrmModificarProducto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

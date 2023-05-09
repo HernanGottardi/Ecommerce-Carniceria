@@ -18,7 +18,12 @@ namespace formularios
         public FrmHeladera()
         {
             InitializeComponent();
+
             this.ListaFacturas = new List<Factura>();
+
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         public FrmHeladera(string mail) : this()
@@ -26,6 +31,9 @@ namespace formularios
             this.Mail = mail;
         }
 
+        /// <summary>
+        /// Limpio y cargo de elementos al List Box para carnes.
+        /// </summary>
         public void ConfigurarListBoxProductos()
         {
             lsb_productos.Items.Clear();
@@ -34,7 +42,9 @@ namespace formularios
                 this.lsb_productos.Items.Add(item.TipoDeCorte);
             }
         }
-
+        /// <summary>
+        /// Limpio y cargo de elementos al List Box para clientes.
+        /// </summary>
         public void ConfigurarListBoxClientes()
         {
             lsb_productos.Items.Clear();
@@ -44,7 +54,9 @@ namespace formularios
                 this.lsb_clientes.Items.Add(item.Mail);
             }
         }
-
+        /// <summary>
+        /// Compruebo si se selecciono un item y en consecuencia lo muestro en la seccion detalles.
+        /// </summary>
 
         private void btn_detallar_Click(object sender, EventArgs e)
         {
@@ -67,23 +79,28 @@ namespace formularios
             this.ConfigurarListBoxClientes();
             this.ConfigurarListBoxProductos();
         }
+        /// <summary>
+        /// Realizo las cuentas necesarias para saber si el cliente puede pagar y tambien chequeo si completo todos los pasos necesarios.
+        /// </summary>
 
         private void btn_vender_Click(object sender, EventArgs e)
-        {
-            Vendedor v = new Vendedor();
-
-            int cantidadkilos = (int)this.nud_cantidadKilosVender.Value;
+        {            
+           
             if (lsb_productos.SelectedItem is not null && lsb_clientes.SelectedItem is not null)
             {
                 string mailCliente = lsb_clientes.SelectedItem.ToString();
                 string tipoCorte = lsb_productos.SelectedItem.ToString();
+
                 if (mailCliente != null && tipoCorte != null)
                 {
                     int indexCarne = Carniceria.IndexCarne(tipoCorte);
                     Carne carneSelec = Carniceria.listaProductos[indexCarne];
 
+                    Vendedor v = new Vendedor();
                     int indexCliente = v.IndexCliente(mailCliente);
                     Cliente clienteSelec = v.ListaClientes[indexCliente];
+
+                    int cantidadkilos = (int)this.nud_cantidadKilosVender.Value;
 
                     if (cantidadkilos > 0 && cantidadkilos <= carneSelec.CantidadKilos)
                     {
@@ -119,6 +136,10 @@ namespace formularios
             }
         }
 
+        /// <summary>
+        /// Instancia al formulario agregar productos y efectua una accion en respuesta
+        /// </summary>
+
         private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmAgregarProductos form = new FrmAgregarProductos();
@@ -130,7 +151,9 @@ namespace formularios
                 this.ConfigurarListBoxProductos();
             }
         }
-
+        /// <summary>
+        /// Instancia al formulario modificar productos y efectua una accion en respuesta
+        /// </summary>
         private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmModificarProducto form = new FrmModificarProducto();
@@ -140,7 +163,9 @@ namespace formularios
                 this.ConfigurarListBoxProductos();
             }
         }
-
+        /// <summary>
+        /// Instancia al formulario quitar productos y efectua una accion en respuesta
+        /// </summary>
         private void quitarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmQuitarProducto form = new FrmQuitarProducto();
@@ -150,7 +175,9 @@ namespace formularios
                 this.ConfigurarListBoxProductos();
             }
         }
-
+        /// <summary>
+        /// Instancia al formulario agregar corte y efectua una accion en respuesta
+        /// </summary>
         private void agregarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FrmAgregarCorte form = new FrmAgregarCorte();
@@ -158,11 +185,13 @@ namespace formularios
 
             if (resultado == DialogResult.OK)
             {
-                Carniceria.tiposCortes.Add(form.DevolverNuevoCorte());
+                Carniceria.tiposCortes.Add(form.NuevoCorte);
                 this.ConfigurarListBoxProductos();
             }
         }
-
+        /// <summary>
+        /// Muestro los detalles del cliente seleccionado a la hora de apretar el boton detallar.
+        /// </summary>
         private void btn_detallarCliente_Click(object sender, EventArgs e)
         {
             if (this.lsb_clientes.SelectedItem != null)
@@ -177,17 +206,18 @@ namespace formularios
                 }
             }
         }
+        /// <summary>
+        /// Instancia y me desplaza al formulario en donde se podra ver el historial de facturaciones.
+        /// </summary>
 
         private void facturacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmHistorial form = new FrmHistorial(listaFacturas);
             form.Show();
         }
-
-        //private void modificarToolStripMenuItem1_Click(object sender, EventArgs e)
-        //{
-
-        //}
+        /// <summary>
+        /// Instancia al formulario quitar corte y efectua una accion en respuesta
+        /// </summary>
 
         private void quitarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -200,7 +230,9 @@ namespace formularios
             }
 
         }
-
+        /// <summary>
+        /// Instancia al formulario modificar corte y efectua una accion en respuesta
+        /// </summary>
         private void modificarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FrmModificarCorte form = new FrmModificarCorte();

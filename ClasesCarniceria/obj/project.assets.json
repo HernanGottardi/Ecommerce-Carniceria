@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\ClasesCarniceria\\ClasesCarniceria.csproj",
+      "projectUniqueName": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\ClasesCarniceria\\ClasesCarniceria.csproj",
       "projectName": "ClasesCarniceria",
-      "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\ClasesCarniceria\\ClasesCarniceria.csproj",
+      "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\ClasesCarniceria\\ClasesCarniceria.csproj",
       "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\ClasesCarniceria\\obj\\",
+      "outputPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\ClasesCarniceria\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,6 +7,9 @@ namespace formularios
         public FrmQuitarProducto()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void ConfigurarListBoxProductos()

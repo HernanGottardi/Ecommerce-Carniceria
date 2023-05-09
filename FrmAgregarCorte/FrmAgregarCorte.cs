@@ -8,17 +8,20 @@ namespace formularios
         public FrmAgregarCorte()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        public string DevolverNuevoCorte()
-        {
-            return this.nuevoCorte;
-        }
+        public string NuevoCorte { get => nuevoCorte; set => nuevoCorte = value; }
 
+        /// <summary>
+        /// Evento encargado de comprobar si el nuevo corte ingresado es correcto.
+        /// </summary>
         private void btn_aceptar_Click_1(object sender, EventArgs e)
         {
-            this.nuevoCorte = this.txb_agregarCorteNuevo.Text.ToString();
-            if (!(String.IsNullOrWhiteSpace(nuevoCorte)))
+            this.NuevoCorte = this.txb_agregarCorteNuevo.Text.ToString();
+            if (!(String.IsNullOrWhiteSpace(NuevoCorte)))
             {
                 this.DialogResult = DialogResult.OK;
             }

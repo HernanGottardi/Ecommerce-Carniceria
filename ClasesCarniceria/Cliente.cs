@@ -22,7 +22,10 @@ namespace ClasesCarniceria
         {
             this.CantidadDinero = cantidadDinero;
         }
-
+        /// <summary>
+        /// Convertir todos los atributos del objeto Cliente en un string.
+        /// </summary>
+        /// <returns> una cadena de texto que representa al objeto.</returns>
         public override string Detallar()
         {
             StringBuilder sb = new StringBuilder();

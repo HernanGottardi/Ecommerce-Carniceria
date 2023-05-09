@@ -38,6 +38,13 @@ namespace ClasesCarniceria
                 new Carne(5, tiposCortes[4], 450)
             };
 
+        /// <summary>
+        /// Buscar el indice de un producto carne a traves de su nombre/tipo de corte.
+        /// </summary>
+        /// <param name="tipoCorte"> utilizado para verificar si existe o no</param>
+        /// <returns>
+        /// Retorna el indice de la carne encontrada, o -1 cuando no la encuentra.
+        /// </returns>
         public static int IndexCarne(string tipoCorte)
         {
             for (int i = 0; i < listaProductos.Count; i++)
@@ -49,7 +56,11 @@ namespace ClasesCarniceria
             }
             return -1;
         }
-
+        /// <summary>
+        /// Encargada de buscar dentro de la lista de productos, el que cumpla con el tipo de corte.
+        /// </summary>
+        /// <param name="corte"> palabra clave a buscar.</param>
+        /// <returns> retorna la Carne si todo salio bien y null si algo salio mal</returns>
         public static Carne BuscarCarnePorCorte(string corte)
         {
 
@@ -64,7 +75,11 @@ namespace ClasesCarniceria
                 return null;
             }
         }
-
+        /// <summary>
+        /// Busqueda de indice del parametro en la lista de cortes de carne.
+        /// </summary>
+        /// <param name="tipoCorte">palabra clave a comprobar si esta o no en la lista de cortes.</param>
+        /// <returns> indice del corte de carne o -1 si no lo encuentra.</returns>
         public static int IndexCorteCarne(string tipoCorte) 
         {
             for (int i = 0; i < tiposCortes.Count; i++)

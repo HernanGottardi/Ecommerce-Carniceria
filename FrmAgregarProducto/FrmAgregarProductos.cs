@@ -8,6 +8,9 @@ namespace formularios
         public FrmAgregarProductos()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         public Carne NuevaCarne()

@@ -43,8 +43,11 @@ namespace ClasesCarniceria
             };
         }
 
-        // Harcodeo la lista para que los datos del usuario tengan con que compararse.
-        // Comprobacion de si un input VENDEDOR existe o no.
+        /// <summary>
+        /// Comprobacion de si el objeto del tipo vendedor se encuentra dentro de la lista de vendedores.
+        /// </summary>
+        /// <param name="v"> objeto del tipo Vendedor que se usara para la comprobacion.</param>
+        /// <returns> true si existe, false si no existe</returns>
         public bool validarVendedorExiste(Vendedor v)
         {
             foreach (var vendedor in Carniceria.listaVendedores)
@@ -72,6 +75,10 @@ namespace ClasesCarniceria
             producto.TipoDeCorte = tipo;
         }
 
+        /// <summary>
+        /// Crear una cadena de texto con todos los mails de los clientes separados por coma.
+        /// </summary>
+        /// <returns> retorna una cadena de texto.</returns>
         public string MostrarClientes() 
         {
             List<string> mailClientes = new List<string>();
@@ -85,11 +92,16 @@ namespace ClasesCarniceria
             return mails;
         }
 
-        public Cliente MostarCliente(int index)
-        { 
-            return listaClientes[index];
-        }
+        //public Cliente MostarCliente(int index)
+        //{ 
+        //    return listaClientes[index];
+        //}
 
+        /// <summary>
+        /// Buscar y encontrar el indice del objeto de tipo Cliente dentro de la lista de clientes.                  
+        /// </summary>
+        /// <param name="mail"> string que se usara para comparar con los atributos mails de la lista de objetos del tipo Cliente</param>
+        /// <returns> Indice del objeto del tipo Cliente o -1 si no lo encontro</returns>
         public int IndexCliente(string mail) 
         {
             for (int i = 0; i < listaClientes.Count; i++)
@@ -101,7 +113,11 @@ namespace ClasesCarniceria
             }
             return -1;
         }
-
+        /// <summary>
+        /// Buscar y encontrar objeto del tipo Cliente.
+        /// </summary>
+        /// <param name="mail"> string a comparar con el atributo mail de los objetos del tipo cliente</param>
+        /// <returns> retorna objeto del tipo Cliente de encontrarlo o null en caso de no encontrarlo</returns>
         public Cliente BuscarClientePorMail(string mail)
         {
             int indexCliente = this.IndexCliente(mail);
@@ -115,7 +131,10 @@ namespace ClasesCarniceria
                 return null;
             }     
         }
-
+        /// <summary>
+        /// Convertir en una sola cadena de texto todas las propiedades del objeto Cliente.
+        /// </summary>
+        /// <returns> Cadena de texto </returns>
         public override string Detallar()
         {
             StringBuilder sb = new StringBuilder();
@@ -126,6 +145,7 @@ namespace ClasesCarniceria
 
             return sb.ToString();
         }
+
         public static bool operator ==(Cliente c, Vendedor vendedor)
         {
             foreach (var cliente in vendedor.ListaClientes)

@@ -36,7 +36,8 @@
       },
       "FrmAgregarProducto/1.0.0": {
         "dependencies": {
-          "ClasesCarniceria": "1.0.0"
+          "ClasesCarniceria": "1.0.0",
+          "FrmModificarProducto": "1.0.0"
         },
         "runtime": {
           "FrmAgregarProducto.dll": {}

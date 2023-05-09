@@ -8,6 +8,8 @@ using System;
 using ClasesCarniceria;
 using formularios;
 
+
+
 namespace formularios
 {
     public partial class FrmLogin : Form
@@ -15,16 +17,24 @@ namespace formularios
         public FrmLogin()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-        // Evento: Boton automatico para CLIENTE.       
+        /// <summary>
+        /// Rellenar los campos para entrar como cliente.
+        /// </summary>
         private void btn_Cliente_Click(object sender, EventArgs e)
         {
             // Relleno los datos para cliente con datos que se que existe.
             this.txb_mail.Text = "hernan@gmail.com";
             this.txb_contraseña.Text = "1234";
         }
-        // Evento: Boton automatico para VENDEDOR.
+      
+        /// <summary>
+        /// Rellenar los campos para entrar como vendedor.
+        /// </summary>
         private void btn_Vendedor_Click(object sender, EventArgs e)
         {
             // Relleno los datos para vendedor con datos que se que existe.
@@ -32,7 +42,10 @@ namespace formularios
             this.txb_contraseña.Text = "1234";
         }
 
-        // Evento: Boton para ingreso manual tanto de Cliente como de Vendedor. Puede ser cualquiera de los dos.
+        /// <summary>
+        /// Boton usado, una vez los datos de los campos son completados. 
+        /// Verificando que tipo de usuario es.
+        /// </summary>
         private void btn_ingresoManual_Click(object sender, EventArgs e)
         {
             // Informacion capturada en el formulario.
@@ -44,27 +57,22 @@ namespace formularios
 
             // Pregunto si el cliente esta dentro de la lista de clientes del vendedor.
             if (cliente == vendedor)
-            {
-                // Oculto el formulario Login.
-                this.Hide();
+            { 
                 // Invoco y muestro el formulario Venta.
                 FrmVenta paginaVenta = new FrmVenta(mail);
-
-
-                paginaVenta.Show(this);
-
-                // Muestro en pantalla del nuevo formulario el saludo.
-                paginaVenta.SaludarCliente();
+                paginaVenta.Show();
+                // Oculto el formulario Login.
+                this.Hide();
             }
             else
             {
                 if (vendedor.validarVendedorExiste(vendedor))
                 {
-                    // Oculto el formulario Login.
-                    this.Hide();
                     // Invoco y muestro el formulario Heladera.
                     FrmHeladera paginaHeladera = new FrmHeladera(mail);
                     paginaHeladera.Show(this);
+                    // Oculto el formulario Login.
+                    this.Hide();
                 }
                 else
                 {

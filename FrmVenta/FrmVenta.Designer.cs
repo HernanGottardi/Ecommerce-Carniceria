@@ -59,12 +59,12 @@
             // lb_pedirMonto
             // 
             lb_pedirMonto.AutoSize = true;
-            lb_pedirMonto.BackColor = Color.FromArgb(64, 64, 64);
-            lb_pedirMonto.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
-            lb_pedirMonto.ForeColor = Color.White;
+            lb_pedirMonto.BackColor = Color.Transparent;
+            lb_pedirMonto.Font = new Font("Segoe UI", 15F, FontStyle.Bold, GraphicsUnit.Point);
+            lb_pedirMonto.ForeColor = Color.Black;
             lb_pedirMonto.Location = new Point(259, 341);
             lb_pedirMonto.Name = "lb_pedirMonto";
-            lb_pedirMonto.Size = new Size(308, 35);
+            lb_pedirMonto.Size = new Size(323, 35);
             lb_pedirMonto.TabIndex = 2;
             lb_pedirMonto.Text = "Ingresar saldo disponible: ";
             // 
@@ -93,6 +93,7 @@
             Name = "FrmVenta";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Venta";
+            Load += FrmVenta_Load;
             ResumeLayout(false);
             PerformLayout();
         }

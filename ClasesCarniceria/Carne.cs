@@ -23,6 +23,13 @@ namespace ClasesCarniceria
             this.PrecioPorKilo = precioPorKilo;
         }
 
+        /// <summary>
+        /// Convertir cada atributo del objeto, en un string.
+        /// </summary>
+        /// <returns> 
+        /// cadena de texto que representa las caracteristicas 
+        /// del objeto instanciado del tipo Carne.
+        /// </returns>
         public string MostrarDetalles() 
         { 
             StringBuilder sb = new StringBuilder();

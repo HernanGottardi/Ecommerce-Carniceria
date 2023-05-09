@@ -11,6 +11,9 @@ namespace formularios
         public FrmHistorial()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         public FrmHistorial(List<Factura> lista) : this()

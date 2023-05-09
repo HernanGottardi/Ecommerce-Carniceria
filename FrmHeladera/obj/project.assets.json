@@ -32,7 +32,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "ClasesCarniceria": "1.0.0"
+          "ClasesCarniceria": "1.0.0",
+          "FrmModificarProducto": "1.0.0"
         },
         "compile": {
           "bin/placeholder/FrmAgregarProducto.dll": {}
@@ -186,11 +187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmHeladera\\FrmHeladera.csproj",
+      "projectUniqueName": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmHeladera\\FrmHeladera.csproj",
       "projectName": "FrmHeladera",
-      "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmHeladera\\FrmHeladera.csproj",
+      "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmHeladera\\FrmHeladera.csproj",
       "packagesPath": "C:\\Users\\herni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmHeladera\\obj\\",
+      "outputPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmHeladera\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\herni\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,29 +208,29 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\ClasesCarniceria\\ClasesCarniceria.csproj": {
-              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\ClasesCarniceria\\ClasesCarniceria.csproj"
+            "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\ClasesCarniceria\\ClasesCarniceria.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\ClasesCarniceria\\ClasesCarniceria.csproj"
             },
-            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmAgregarCorte\\FrmAgregarCorte.csproj": {
-              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmAgregarCorte\\FrmAgregarCorte.csproj"
+            "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmAgregarCorte\\FrmAgregarCorte.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmAgregarCorte\\FrmAgregarCorte.csproj"
             },
-            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmAgregarProducto\\FrmAgregarProducto.csproj": {
-              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmAgregarProducto\\FrmAgregarProducto.csproj"
+            "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmAgregarProducto\\FrmAgregarProducto.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmAgregarProducto\\FrmAgregarProducto.csproj"
             },
-            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmHistorial\\FrmHistorial.csproj": {
-              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmHistorial\\FrmHistorial.csproj"
+            "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmHistorial\\FrmHistorial.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmHistorial\\FrmHistorial.csproj"
             },
-            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmModificarCorte\\FrmModificarCorte.csproj": {
-              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmModificarCorte\\FrmModificarCorte.csproj"
+            "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmModificarCorte\\FrmModificarCorte.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmModificarCorte\\FrmModificarCorte.csproj"
             },
-            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmModificarProducto\\FrmModificarProducto.csproj": {
-              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmModificarProducto\\FrmModificarProducto.csproj"
+            "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmModificarProducto\\FrmModificarProducto.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmModificarProducto\\FrmModificarProducto.csproj"
             },
-            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmQuitarCorte\\FrmQuitarCorte.csproj": {
-              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmQuitarCorte\\FrmQuitarCorte.csproj"
+            "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmQuitarCorte\\FrmQuitarCorte.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmQuitarCorte\\FrmQuitarCorte.csproj"
             },
-            "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmQuitarProducto\\FrmQuitarProducto.csproj": {
-              "projectPath": "C:\\Users\\herni\\Documents\\proyectos-utn\\Carniceria\\FrmQuitarProducto\\FrmQuitarProducto.csproj"
+            "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmQuitarProducto\\FrmQuitarProducto.csproj": {
+              "projectPath": "C:\\Users\\herni\\Desktop\\el definitivo\\Gottardi-Hernan-2D-PP-2023\\FrmQuitarProducto\\FrmQuitarProducto.csproj"
             }
           }
         }

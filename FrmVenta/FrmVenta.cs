@@ -5,25 +5,31 @@ namespace formularios
     public partial class FrmVenta : Form
     {
 
-        public string email;
+        private string email;
 
         public FrmVenta()
         {
             InitializeComponent();
-            this.lb_saludo.Text = $"Hola Cliente!";
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         public FrmVenta(string email) : this()
         {
             this.email = email;
         }
+        /// <summary>
+        /// Al momento de cargarse el formulario se cargara el saludo.
+        /// </summary>
 
-        public void SaludarCliente()
+        private void FrmVenta_Load(object sender, EventArgs e)
         {
             this.lb_saludo.Text = $"Hola {this.email}!";
         }
-
-
+        /// <summary>
+        /// Si el campo monto fue completado con exito iremos al proximo formulario.
+        /// </summary>
         private void bt_enviarMonto_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(this.tx_saldo.Text))
@@ -35,9 +41,11 @@ namespace formularios
                 {
                     FrmElegirProducto form = new FrmElegirProducto(saldoDec, this.email);
                     form.Show();
-                    this.Hide();
+                    this.Close();
                 }
             }
         }
+
+
     }
 }

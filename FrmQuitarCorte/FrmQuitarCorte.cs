@@ -7,7 +7,13 @@ namespace formularios
         public FrmQuitarCorte()
         {
             InitializeComponent();
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
+        /// <summary>
+        /// Limpio y cargo la list box con la lista de cortes de tipos de corte
+        /// </summary>
 
         private void FrmQuitarCorte_Load(object sender, EventArgs e)
         {
@@ -18,7 +24,9 @@ namespace formularios
                 this.lsb_listaDeCortes.Items.Add(item);
             }
         }
-
+        /// <summary>
+        /// Compruebo si hay un elemento seleccionado y quito el que este seleccionado.
+        /// </summary>
         private void btn_aceptar_Click(object sender, EventArgs e)
         {
             if (this.lsb_listaDeCortes.SelectedItem is not null)

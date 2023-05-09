@@ -18,3 +18,23 @@ C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarCorte\obj\Debug\net6.
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.pdb
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.genruntimeconfig.cache
 C:\Users\herni\Documents\proyectos-utn\Carniceria\FrmQuitarCorte\obj\Debug\net6.0-windows\ref\FrmQuitarCorte.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\bin\Debug\net6.0-windows\FrmQuitarCorte.exe
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\bin\Debug\net6.0-windows\FrmQuitarCorte.deps.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\bin\Debug\net6.0-windows\FrmQuitarCorte.runtimeconfig.json
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\bin\Debug\net6.0-windows\FrmQuitarCorte.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\bin\Debug\net6.0-windows\FrmQuitarCorte.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\bin\Debug\net6.0-windows\ClasesCarniceria.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\bin\Debug\net6.0-windows\ClasesCarniceria.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.csproj.AssemblyReference.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\formularios.FrmQuitarCorte.resources
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.csproj.GenerateResource.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.AssemblyInfoInputs.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.AssemblyInfo.cs
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.csproj.CoreCompileInputs.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.csproj.CopyComplete
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\refint\FrmQuitarCorte.dll
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.pdb
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\FrmQuitarCorte.genruntimeconfig.cache
+C:\Users\herni\Desktop\el definitivo\Gottardi-Hernan-2D-PP-2023\FrmQuitarCorte\obj\Debug\net6.0-windows\ref\FrmQuitarCorte.dll
